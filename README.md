@@ -1,57 +1,61 @@
-# Ant Design Pro
+##      用户中心项目（巩固基础）
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+## 项目简介 
 
-## Environment Prepare
+##### 项目介绍：
 
-Install `node_modules`:
+企业核心的用户中心系统，基于Spring Boot后端+React前端的全栈项目，实现了用户注册登录、查询等基础功能。
 
-```bash
-npm install
-```
+##### **技术选型：**
 
-or
+##### **前端：**
 
-```bash
-yarn
-```
+1. 主要运用阿里Ant Design生态
+2. HTML+CSS+JavaScript三件套
+3. React开发框架
+4. Ant Design Pro项目模板
+5. Ant Design端组件库
+6. Umi开发框架
+7. Umi Request请求库
+8. 正向和反向代理
 
-## Provided Scripts
+#### 后端
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
+1. ]ava编程语言
+2. Spring+SpringMVC+SpringBoot框架
+3. MyBatis+MyBatis Plus数据访问框架
+4. MySQL数据库
+5. jUnit单元测试库
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+#### 部署
 
-### Start project
+1. Linux单机部署
+2. Nginx Web服务器
+3. Docker容器
+4. 容器托管平台
 
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+#### 登录
+![登录](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E7%99%BB%E5%BD%95.png)
+#### 注册
+![注册](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E6%B3%A8%E5%86%8C.png)
+#### 欢迎页面
+![欢迎页面](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E6%AC%A2%E8%BF%8E%E9%A1%B5%E9%9D%A2.png)
+#### 介绍技术栈
+![介绍技术栈](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%BB%8B%E7%BB%8D%E6%8A%80%E6%9C%AF%E6%A0%88.png)
+#### 管理-用户管理页
+![管理-用户管理页](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E7%AE%A1%E7%90%86-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E9%A1%B5.png)
+![管理-用户管理页](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7.png)
+![是否删除](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E6%98%AF%E5%90%A6%E5%88%A0%E9%99%A4.png)
+#### 管理员添加新用户
+![管理员添加新用户](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E7%AE%A1%E7%90%86%E5%91%98%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%94%A8%E6%88%B7.png)
+#### 个人信息展示
+![个人信息展示](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E5%B1%95%E7%A4%BA.png)
+![修改密码](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81.png)
+#### 词云图
+![词云图](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%BA%91%E5%9B%BE.png)
+![词云图](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E4%BA%91%E7%94%9F%E5%9B%BE2.png)
+#### 个人信息展示
+![个人信息展示](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E5%88%86%E7%B1%BB%E5%B1%95%E7%A4%BA1.png)
+![个人信息展示](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/%E5%88%86%E7%B1%BB%E5%B1%95%E7%A4%BA2.png)
+#### Ant design pro主题风格
+![ Ant design pro主题风格](https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E6%99%BA%E4%BA%AB%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83/ant%20design%20pro%E4%B8%BB%E9%A2%98%E9%A3%8E%E6%A0%BC.png)
