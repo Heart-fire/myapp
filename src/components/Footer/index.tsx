@@ -33,5 +33,5 @@ const Footer: React.FC = () => {
     />
   );
 };
-// 心火
+// 心火huo
 export default Footer;
