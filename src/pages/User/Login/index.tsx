@@ -220,7 +220,7 @@ const Login: React.FC = () => {
                 float: 'right',
               }}
               /*===============================================================================修改忘记密码====*/
-              href={"https://blog.csdn.net/weixin_52301330?spm=1000.2115.3001.5343"}
+              href={"https://github.com/Heart-fire"}
               target="_blank"
               rel="noreferrer"
             >

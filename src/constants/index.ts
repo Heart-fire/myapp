@@ -3,7 +3,7 @@ export const SYSTEM_LOGO = "https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%8
 /**
  * 知识星球文档地址
  */
-export const PLANET_LINK = "https://wx.zsxq.com/dweb2/index/group/51122858222824";
+export const PLANET_LINK = "https://github.com/Heart-fire";
 
 /**
  * 默认头像
